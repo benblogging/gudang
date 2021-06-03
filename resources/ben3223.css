@@ -1,0 +1,1151 @@
+/*=======RESET========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ============== clearfix ====================*/
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.cf:after {
+	clear: both;
+}
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.cf {
+	*zoom: 1;
+}
+/* ============custom============== */
+html{
+	height: 100%;
+}
+body{
+	min-height: 100%;
+    font: 16px/25px Rubik;
+ 	font-weight: 400;
+    background: url(&#39;https://lh3.googleusercontent.com/-50JAHxzXVZg/X7-EamiiaeI/AAAAAAAACU8/2VdUafNwJsUTROgDz6AH8H-enqtyv5x_wCLcBGAsYHQ/footer_lodyas.png&#39;) repeat fixed center/*#eee*/;        
+	position: relative;
+}
+a{
+    text-decoration: none;
+}
+/* ============EU-COOKIES============== */
+#cookieChoiceInfo{
+	background: #262626;
+  	top:70px;
+}
+.cookie-choices-text{
+  	font-family: &quot;Rubik&quot;;
+  	color: snow;
+  
+}
+.cookie-choices-button{
+  	font-family: &quot;Raleway&quot;;
+  	color: snow;
+}
+/* =======================TOP DAN NAV BAR======================= */ /*CSSPC*/
+.header{
+  	/*background: snow;*/
+  	width: 100%;
+ 	height: 100vh;
+    z-index: 9999;
+    }
+      /* ===LOGO=== */
+ 
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: auto 46px;
+    color: snow;
+    /*color: #242e54;*/
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    vertical-align:middle;
+     
+}
+.logo img{
+    margin:auto;
+    vertical-align:middle;
+    }
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 30px;
+    background: #262626;
+    box-shadow: 1px 2px 4px #242e54;
+    z-index: 1000000;
+}
+
+nav ul {
+    line-height: 30px;
+    list-style: none;
+    background: #262626;
+    overflow: hidden;
+    color: snow;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 80px;
+    transition: 1s;
+      
+}
+
+nav.black ul {
+    background: snow;
+      
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: snow;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: &quot;Miriam Libre&quot;, sans serif;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+      }
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+      /* ======SEARCHBARPC===== */
+.search-input input{
+	/*position: relative;*/
+    font-family: &#39;Raleway&#39;;
+    width: 90px;
+
+    bottom: 23px;
+    padding: 8px 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+	border-radius: 30px;
+    border: 1px solid #202133;
+	height: 15px;
+	background: snow;
+	color: #202133;
+	outline: none;
+	transition: width .30s ease-in-out;
+}
+.search-input input:focus{
+	border-radius: 30px;
+	border: 1px groove #202133;
+
+    width: 270px;
+	padding: 8px 10px;
+}
+
+.search-action{
+	display: none;
+}
+
+#BlogSearch2 .title {
+	display:none;
+}
+
+
+/* ==============================BODY============================= */
+.primary-container{
+	width: 100%;
+	min-height: 100%;
+	margin: auto;
+	clear: both;
+}
+#container{
+    position:relative;
+	width: 960px;
+	min-height: calc(100% - 100px - 50px);
+	
+	margin: auto;
+	margin-bottom: 120px;
+	box-sizing: border-box;
+}
+.manaoi{
+   font: 700 29px Miriam libre; 
+	display: flex;
+	margin: auto;
+	width: 100%;
+}
+.manaoi404{
+	font-size: 32px;
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+      
+.pilihan1, .pilihan2, .pilihan3{
+    text-align: center;
+	padding: 150px 0px;
+	margin: auto;
+	width: 90%;
+	height: 100%;
+    transition: 300ms ease-in-out;
+}
+.pilihan1{
+    background: snow;
+}
+.pilihan2{
+    background:  #F7F7F7;
+}
+.pilihan3{
+    background: #F1F1F1;
+}
+.pilihan1:hover, .pilihan2:hover, .pilihan3:hover{
+    background: #202133;
+    color: snow;
+}
+.pilihan404{
+    background: snow;
+    text-align: center;
+	padding: 10px 0px;
+	margin: auto;
+	width: 90%;
+	height: 100%;
+}
+#invisibletag{
+    display: none;
+}
+#selectTheme{
+	top: 75px;
+	position: relative;
+	border-radius: 18px;
+	border: 0px;
+	font-family: &quot;rubik&quot;;
+    left: 20px;
+}
+#selectTheme option{
+    font-family: rubik;
+}
+#article{ /*===PC VERSION===*/
+	overflow: auto;
+	/*scroll-behavior: smooth;*/
+	width: 95%; /* KALO ADA SIDEBAR 670px CUKUP, FLOAT LEFT AKTIFIN*/
+	height: 100%;
+	/*float: left;*/
+	text-align: left;
+	background-color:#EEEEEE;
+	color: #212121;
+	padding: 32px 70px;
+	box-sizing: border-box;
+    line-height: 1.5;
+    margin: 80px auto 30px auto;
+    position:relative;
+}
+#article .containerDalam{
+    width: 100%;
+}
+#article .post{
+    margin: 0;
+}
+#article .heroimg img{
+	position: static;
+	display: block;
+	max-width: 100%;
+	margin-bottom: 17px;
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+}
+#article .heroimg .captimg{
+
+}
+#article .parts{
+  margin-bottom:45px;
+}
+#article .post-header{
+	font-size: 14px;
+    margin-bottom:4px;
+}
+#article .post-header-line-1{
+    text-align: center;
+}
+#article .codespace-container{
+	margin: auto;
+	background: black;
+	width: 100%;
+}
+.jumpto{
+  	margin-top:-300px;
+    padding-bottom:300px;
+    display:block;
+}
+#article .codespace{
+	font-family: monospace;
+	color: #86c232;
+	text-align: left;
+	max-width: 100%;
+	overflow: scroll;
+  	white-space: nowrap;
+}
+
+#article h2{
+	font: bolder 22px Rubik;
+	color: #202133;
+}
+#article-title{
+	text-align: left;
+}
+#article a{
+	color: #384782;
+}
+
+#customTimestamp{
+    color:#384866;
+}
+#article a:visited{
+	color: #1e7531;
+}
+#article p a{
+	text-decoration: underline;
+}
+#article a:hover{
+	color: #c051fc;
+}
+      
+#article b, #article strong{
+	font-weight: 800;
+}
+      
+#article i{
+	font-style: italic;
+}
+      
+#article h1, #article h2, #article h3, #article h4, #article h5, #article h6{
+   	color: #21234a;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+  
+#article h1.post-title{
+	font: 800 26px Raleway;
+	text-align: center;
+	color: #21234a;
+	margin-bottom: 16px;
+}
+#article h2{
+	font-size: 24px;
+}
+#article h3{
+	font-size: 22px;
+}
+#article h4{
+	font-size: 20px;
+}
+#article h5{
+	font-size: 18px;
+}
+#article h6{
+	font-size: 16px;
+}
+#article .japanese{
+    font-family:&quot;Noto Sans JP&quot;,&quot;Meiryo UI&quot;;
+}
+/*DILIR PC*/
+#article .diagram-alir{
+    position: static;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	max-width: 100%;
+}
+#article .diagram-cover{
+    height: 100%;
+    width: 100%;
+}
+#article .DiagramContainer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#article .mSpace{
+      font-family: monospace;
+}
+#article p, .pseudoP{
+	margin-bottom: 25px;
+}
+#article ul{
+	list-style-type: disc;
+	font-size: inherit;
+	margin-left: 15px;
+    line-height: 1.7;
+    margin-bottom: 7px;
+}
+#article .caraMelakukan li{
+    margin-bottom: 10px;
+}
+#article .mapLocation{
+    position: static;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	max-width: 100%;
+}
+      
+#article ol{
+	list-style-type: decimal;
+	margin-left: 15px;
+    margin-bottom: 22px;
+	line-height: 1.5;
+}
+#article .angka404{
+    font-weight: bolder;
+    font-size: 100px;
+}
+#article .errorask{
+    color: red;
+}
+#article .tulisanKhusus{
+	color: #21234a;
+}
+#article img.imgcenter{
+	position: static;
+	display:block;
+	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+    margin-bottom: 10px;
+}
+#article .mini{
+    width: 20px;
+    display:block;
+    margin:auto;
+}
+
+#article .miniCredit{
+    width: 20px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+#article .imgcovering{
+    margin: 21px auto;
+}
+#article .imagedouble{
+	position: static;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	max-width: 100%;
+}
+#article img.imgsedang{
+	position: static;
+	display:block;
+	max-width: 55%;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+#article img.imgbesar{
+	position: static;
+	display:block;
+	max-width: 100%;
+  	margin-bottom: 17px;
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#article img.imgdbl{
+	position: static;
+	display:inline;
+	max-width: 40%;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+#article .imgcaption{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 15px;
+    line-height: normal;
+}
+      
+#article table{
+    table-layout: fixed;
+	margin-top: 6px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+#article table tr td{
+    word-wrap: break-word;
+}
+#article table th{
+    text-align: center;
+	vertical-align: middle;
+    font-weight: bolder;
+}
+#article .bordered{
+    margin:inherit auto;
+	font-size: 14px;
+}
+  #article .kelebaran {
+  	overflow-x:auto;
+  }
+#article .anti-overflow{
+    overflow-x: auto;}
+#article .bordered, #article .bordered tr, #article .bordered th, #article .bordered td{
+    border: 1px solid black;
+  	border-collapse: collapse;
+  	padding: 2px 5px;
+  	box-sizing: border-box;
+    vertical-align: middle;
+}
+#article #No-Border1 tr td{
+    max-width: 5%;
+    padding-right: 10px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+#article .dafpus{
+    font-size: 14px;
+}      
+#article #No-Border1 tr td p{
+	margin: auto 0;
+}
+#article .note{
+	font-size: 16px;
+}
+.post-footer{
+	margin: 10px 0;
+	font-size:14px;
+}
+
+.post-title a{
+	font: bolder 23px Raleway;
+}
+
+.jump-link{
+	margin-top: 5px;
+}
+#article .jump-link a{
+	font-size: 13px;
+	color: snow;
+	padding: 3px;
+	box-sizing: border-box;
+	background-color: #202133;
+	font-family: &#39;Raleway&#39;;
+	font-weight: bold;
+}
+#article .jump-link a:hover{
+	background-color: #494d8c;
+}
+      
+/*==============COMMENTS==============*/
+
+#article ol#top-ra{
+	list-style-type: none;
+	margin-left: 0px;
+
+}
+.avatar-image-container{
+	float:left;
+
+}
+.comment-block{
+	display: block;
+	border-bottom: 1px groove #202133;
+	margin-left: 0px;
+}
+p.comment-content{
+	margin-left: 50px;
+}
+.comment-header cite a{
+	font-size: 13px;
+	margin-left: 15px;
+}
+.comment-header span.datetime{
+	margin-left: 15px;
+	font-size: 13px;
+}
+span.comment-actions{
+	font-size: 13px;
+	padding:5px;
+
+}
+span.item-control{
+	margin-left: 15px;
+}
+#article section#comments ol{
+	list-style-type: none;
+}
+#article span.comment-actions a{
+	padding-left: 5px;
+	padding-right: 5px;
+	color: snow;
+	background-color: #202133;
+	font-weight: bold;
+}
+#article span.comment-actions a:hover{
+	background-color: #2e59ff;
+      color: #202133;
+}
+
+.comment-replies{
+	margin-left: 30px;
+}
+#sidebar-atas{
+	display:none;
+	/*float: right;*/
+	width: 280px;
+	/*padding: 12px 12px 12px 25px;*/
+	box-sizing: border-box;
+	background-color:snow;
+	position: relative;
+	margin-bottom: 45px;
+}
+#sidebar-bawah{
+	display:none;
+	float: right;
+	width: 280px;
+	margin-top: 15px;
+	padding: 0;
+	box-sizing: border-box;
+	background-color:snow;
+	position: relative;
+}
+
+section.comments{
+	margin: auto;
+	margin-bottom: 20px;
+}
+.comments h3.title{
+	font: bolder 18px Raleway;
+}
+#Blog1_comments-block-wrapper{
+	background: #dfecf5;
+	/*padding: 3px 10px 10px 10px;*/
+	box-sizing: border-box;
+}
+.avatar-image-container{
+	float: left;
+	margin-top: 5px;
+}
+#comments-block{
+	padding: 3px 10px 10px 14px;
+	box-sizing: border-box;
+}
+.comment{
+	margin-top: 10px;
+}
+
+.comment-block{
+	width: 480px;
+	float: left;
+	margin-left: 15px;
+}
+.comment-author {
+	font-weight: bold;
+	font-size: 14px;
+}
+.comment-body{
+	font-size: 16px;
+}
+.comment-footer{
+	font-size: 12px;
+}
+a.comment-delete img{
+	height: 12px;
+	width: 12px;
+}
+#comments .footer{
+	margin-top: 5px;
+
+}
+
+span.post-count{
+	margin-left: 3px;
+	color: #2e3359;
+}
+.hierarchy-content{
+	margin-left: 1px;
+}
+.hierarchy-content ul{
+	margin-left: 10px;
+}
+/*============POSTLABELS==========*/
+#Label1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.list-label-widget-content{
+    font-size: 12px;
+
+}
+
+span.byline.post-labels a{
+	margin-right: 10px;
+}
+span.post-labels a:hover{
+
+}
+#Stats1{
+	margin: auto;
+	margin-top: 20px;
+	/*border: 1px solid #222c52;*/
+	width: 60%;
+	border-radius: 10px;
+      background: #262626;
+}
+#Stats1 h3.title{
+	text-align: center;
+    color: snow;
+}
+#Stats1_content{
+	text-align: center;
+}
+#Stats1_totalCount{
+      color: snow;
+      }
+
+/*======PROFILE=======*/
+#Profile1 a:hover{
+	color: #c051fc;
+}
+#Profile1 h3.title{
+	font: bold 19px Raleway;
+}
+.profile-data {
+	font-size: 15px;
+}
+a.profile-link {
+	color: #2b368a;
+	font-size: 15px;
+}
+/*========ARCHIVE=======*/
+#BlogArchive1{
+	margin-top: 15px;
+}
+#BlogArchive1 h3{
+	font: bold 19px Raleway;
+}
+#ArchiveList{
+	font-size: 14px;
+	line-height: 20px;
+	list-style-type: disc;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+#BlogArchive1_ArchiveList ul{
+	list-style-type: disc;
+}
+
+#BlogArchive1_ArchiveList ul a{
+	color: #4052a1;
+}
+#BlogArchive1_ArchiveList ul a:hover{
+	color: #c051fc;
+}
+/*============FOOTER============*/
+#myfooter{
+	min-height: 105px; /*GANTI JADI ---min-height--- KALO MAU MASUKIN TEMPLATE/BG CREDIT*/
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: #262626;
+	position: absolute;
+	color: snow;
+    font-family:&quot;Miriam libre&quot;, sans serif;
+	clear: both;
+}
+
+#myfooter .BlogPow{
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	top: 14px; /* 10px KALO ADA TEMP BG CREDIT*/
+	position: relative;
+}
+#myfooter .BlogPow p{
+	margin-bottom: 20px;
+}
+#myfooter .BlogPow a{
+	color: snow;
+}
+#myfooter .BlogPow a:hover{
+	color: #c051fc;
+}
+
+#myfooter .TempAndBg{
+	line-height: 20px;
+}
+#myfooter .TemplateAuthor{
+	display: none;
+	font-size: 11px;
+	color: snow;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#myfooter .TemplateAuthor a{
+	font-size: 11px;
+	color: snow;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#myfooter .TemplateAuthor a:hover{
+	font-size: 11px;
+	color: #c051fc;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#myfooter .BackgroundCredit{
+	font-size: 11px;
+	color: snow;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#myfooter .BackgroundCredit a{
+	font-size: 11px;
+	color: snow;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#myfooter .BackgroundCredit a:hover{
+	font-size: 11px;
+	color: #c051fc;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+      
+#myfooter .copyright{
+      
+}
+/*=============SITEMAP=PC===============*/
+#toc{
+	width:99%;
+	margin:5px auto;
+	-webkit-box-shadow:0 rgba(0,0,0, 0.2);
+	-moz-box-shadow:0 rgba(0,0,0, 0.2);
+	box-shadow:0 rgba(0,0,0, 0.2);
+}
+.labl{
+	color:snow;
+	font-weight:bold;
+	margin:0;
+	padding:1px 0 2px 11px;
+	background: #37435c;
+	display:block;
+}
+.labl:first-letter{
+	text-transform:uppercase;
+}
+#article span.labl a{
+	color:snow;
+	text-decoration:none;
+}
+.new{
+    color:#FF5F00;
+    font-weight:bold;
+    font-style:italic;
+    display:none;
+}
+.postname{
+      font-weight:normal;
+      margin-left: 35px;
+}
+.postname li{
+      margin-right:20px
+}
+/*=======================SCROLLBAR======================*/
+/* width */
+::-webkit-scrollbar {
+  	width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #262626;
+	border-radius: 25px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #EEE;
+	border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #CCC; 
+} 
+
+/*=============MOBILE-VERSION==============*/
+
+@media(max-width: 800px) {
+    body{
+		min-height: 100%;
+		/*font-size: 13px;*/
+		padding-bottom: 80px;
+	}
+      
+
+    .logo {
+    	position: fixed;
+    	top: 0;
+    	margin-top: 16px;
+    }
+    .logo img{
+      	width: 65%;
+    }
+    nav ul {
+    	max-height: 0px;
+        background: #262626;
+        padding-right: 0;
+      	line-height: 10px;
+    }
+
+    nav.black ul {
+        background: #262626;
+    }
+
+    .showing {
+        max-height: 34em;
+      	background: #262626;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    
+      }
+
+    .menu-icon {
+    	margin-top: 0px;
+        display: block;
+      	background: #262626;
+
+    }
+    .menu-icon i{
+      	/*color: #202133;*/
+      	color: snow;
+	}
+/* ======COOKIE MOBILE======*/
+    #cookieChoiceInfo{
+      	top:90px;
+    }
+
+/* ======MOBSEARCHBAR===== */
+	.search-bar input{
+		font-family: &#39;Raleway&#39;;
+		width: 40%;
+		border: 1px solid #202133;
+		/*padding: 5px 10px;*/
+		/*top: 35px;*/
+		border-radius: 30px;
+		/*right: 15px;*/
+		height: 30px;
+		background: snow;
+		color: #202133;
+		outline: none;
+		transition: width .30s ease-in-out;
+	}
+	.search-bar input:focus{
+		border: none;
+		border: 1px solid #202133;
+		width: 80%;
+
+	}
+
+      
+
+	/*======ARTIKEL======*/
+	#container {
+	      margin-top: 80px;
+	      width: 100%;
+	      margin-bottom: 15px;
+	      }
+	.logo{
+	      margin-top: 15px;
+	      }
+	.manaoi{
+	      display: block;
+			margin: auto;
+	      }
+	.pilihan1, .pilihan2, .pilihan3{
+	      	width: 100%;
+			padding: 42px 0;
+	      }
+	#article{ /*ARTIKEL MOBILE*/
+	      margin-top: 0px;
+		overflow: visible;
+		width: 100%;
+		height: 100%;
+		padding: 25px;
+	}
+	#article img.imgcenter{
+		max-width: 100%;
+	}
+	/*#article ol, #article ul{
+	      font-size: 17px;
+	      }*/
+	      
+	#article .tulisankhusus, #article .errorask{
+	      font-size: 17px;
+	      }
+	#article p, .pseudoP{
+	      /*font-size: 18px;*/}
+	     
+	      /*=====MAP MOBILE====*/
+	#article .mapLocation{
+	    position: static;
+		text-align: center;
+		display: inline;
+		margin-left: auto;
+	  	margin-right: auto;
+		max-width: 100%;
+	      }
+	#article .mapLocation iframe{
+	      max-width: 100%}
+	#sidebar-atas{
+		width: 100%;
+		float: left;
+		padding: 12px 12px 12px 25px;
+		box-sizing: border-box;
+		background-color:snow;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 6px;
+	}
+	#sidebar-bawah{
+		width: 100%;
+		margin-top: 6px;
+		float: right;
+		padding: 0;
+		box-sizing: border-box;
+		background-color:snow;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 6px;
+	}
+	/*=====COMMENTMOBILE=====*/
+	#Blog1_comments-block-wrapper{
+		/*padding: 3px 10px 10px 10px;*/
+		box-sizing: border-box;
+	}
+	.avatar-image-container{
+		float: left;
+		margin-top: 5px;
+	}
+	.avatar-image-container img.author-avatar{
+	 width: 20px;
+		height: 20px;
+	}
+
+	#comments-block{
+		padding: 3px 0px 10px 21px;
+		box-sizing: border-box;
+	}
+	.comment{
+		margin-top: 10px;
+	}
+
+	.comment-block{
+		width: 90%;
+		float: left;
+		margin-left: 1px;
+	}
+	.comment-author {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.comment-body{
+		font-size: 16px;
+	}
+	.comment-footer{
+		font-size: 12px;
+	}
+	a.comment-delete img{
+		height: 12px;
+		width: 12px;
+	}
+	#comments .footer{
+		margin-top: 5px;
+	}
+	#comments .footer a{
+		font-size: 12px;
+		padding: 5px;
+	}
+	#myfooter{
+
+
+	}
+}

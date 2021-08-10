@@ -1,0 +1,87 @@
+  /*=======RESET========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+    html{
+    scroll-behavior: smooth;
+    }
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: &#39;&#39;;
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ============== clearfix ====================*/
+.cf:before,
+.cf:after {
+	content: &quot; &quot;; /* 1 */
+	display: table; /* 2 */
+}
+.cf:after {
+	clear: both;
+}
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.cf {
+	*zoom: 1;
+}
+/*=========colors============*/
+:root{
+--nav-bg-h-color:#092040;
+--nav-text-n-hover-color:orange;
+--headings-clr:var(--nav-bg-h-color);
+--article-a:#00417d;
+--article-a-hover:#1f93ff;
+--body-bg:snow;
+--text-color:#000;
+--nav-font:&#39;Miriam libre&#39;,sans-serif;
+--main-font:&#39;BeVietnamRegular&#39;,sans-serif;
+	--main-font-bold:&#39;BeVietnamExtraBold&#39;,sans-serif;
+--main-font-italic:&#39;BeVietnamItalic&#39;,sans-serif;
+--main-font-bold-italic:&#39;BeVietnamExtraBoldItalic&#39;,sans-serif;
+--headings-font:&#39;literata&#39;,serif;
+--sidebar-title-font:var(--main-font-bold);
+--monospace-font:&#39;CodeNewRomanRegular&#39;,monospace;
+--monospace-bold:&#39;CodeNewRomanExtraBold&#39;,monospace;
+--monospace-italic:&#39;CodeNewRomanItalic&#39;,monospace;
+--monospace-bold-italic:&#39;CodeNewRomanExtraBoldItalic&#39;,monospace;
+}
+#article i{font-family:var(--main-font-italic);}
+#article b i, #article strong i{font-family:var(--main-font-bold-italic);}
+#article b,#article strong{font-family: var(--main-font-bold);}
+#article h1 b,#article h1 i,#article h1 b i,#article h2 b,#article h2 i,#article h2 b i,#article h3 b,#article h3 i,#article h3 b i,#article h4 b,#article h4 i,#article h4 b i,#article h5 b,#article h5 i,#article h5 b i,#article h6 b,#article h6 i,#article h6 b i{font-family:var(--headings-font)!important;}

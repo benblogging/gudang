@@ -1,0 +1,68 @@
+/*=======RESET========*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+vertical-align:baseline;
+}
+/*HTML5 display-role reset for older browsers*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+html{scroll-behavior:smooth;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{
+content:"";
+content:none;
+}
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+a{text-decoration:none;}
+/*============== clearfix ====================*/
+.cf:before,.cf:after{
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+.cf:after{clear:both;}
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.cf{*zoom:1;}
+/*=========colors============*/
+:root{
+--color1:#092040;
+--color2:#ffd43b;
+--color3:#00417d;
+--color4:#1f93ff;
+--color5:white;
+--color6:#222;
+--color7:wheat;
+--head-foot:var(--color1);
+--head-foot-txt:var(--color2);
+--nav:var(--color3);
+--nav-text:var(--color7);
+--headings-clr:var(--color1);
+--body-bg:var(--color5);
+--text-color:var(--color6);
+--sidebar-bg:var(--color5);
+--sidebar-bg-hover:var(--color2);
+--sidebar-txt:var(--color1);
+--sidebar-txt-hover:var(--color2);
+--article-a:var(--color3);
+--article-a-hover:var(--color4);
+--nav-font:"Miriam libre",sans-serif;
+--main-font:"BeVietnamRegular","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
+--main-font-bold:"BeVietnamExtraBold","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
+--main-font-italic:"BeVietnamItalic","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
+--main-font-bold-italic:"BeVietnamExtraBoldItalic","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
+--headings-font:"literata","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",serif;
+--sidebar-title-font:var(--main-font-bold);
+--monospace-font:"CodeNewRomanRegular",monospace;
+--monospace-bold:"CodeNewRomanExtraBold",monospace;
+--monospace-italic:"CodeNewRomanItalic",monospace;
+--monospace-bold-italic:"CodeNewRomanExtraBoldItalic",monospace;
+}

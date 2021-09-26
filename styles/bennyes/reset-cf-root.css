@@ -54,13 +54,13 @@ display: table; /* 2 */
 --sidebar-txt-hover:var(--color2);
 --article-a:var(--color3);
 --article-a-hover:var(--color4);
---nav-font:"Miriam libre",sans-serif;
 --main-font:"BeVietnamRegular","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
 --main-font-bold:"BeVietnamExtraBold","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
 --main-font-italic:"BeVietnamItalic","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
 --main-font-bold-italic:"BeVietnamExtraBoldItalic","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",sans-serif;
 --headings-font:"literata","noto_sans_balineseregular","noto_sans_bugineseregular","noto_sans_batakregular","noto_sans_javaneseregular","noto_sans_sundaneseregular",serif;
 --sidebar-title-font:var(--main-font-bold);
+--nav-font:var(--main-font-bold);
 --monospace-font:"CodeNewRomanRegular",monospace;
 --monospace-bold:"CodeNewRomanExtraBold",monospace;
 --monospace-italic:"CodeNewRomanItalic",monospace;
